@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocGen.Abstract", "DocGen.Abstract\DocGen.Abstract.csproj", "{4BD3599B-E841-44F4-B7CE-D8D6C1C6412B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocGen.Abstract", "DocGen.Abstract\DocGen.Abstract.csproj", "{4BD3599B-E841-44F4-B7CE-D8D6C1C6412B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocGen.Pdf", "DocGen.Pdf\DocGen.Pdf.csproj", "{595B7766-2897-4443-B372-CF32BB4DACC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocGen.Pdf", "DocGen.Pdf\DocGen.Pdf.csproj", "{595B7766-2897-4443-B372-CF32BB4DACC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocGen.Word", "DocGen.Word\DocGen.Word.csproj", "{2A4BA46C-7E79-4BB0-8F26-B9157119A244}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocGen.Word", "DocGen.Word\DocGen.Word.csproj", "{2A4BA46C-7E79-4BB0-8F26-B9157119A244}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocGen.Test", "DocGen.Test\DocGen.Test.csproj", "{34A6B7A5-977F-4ABB-83C0-25B0A44C7442}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{2A4BA46C-7E79-4BB0-8F26-B9157119A244}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A4BA46C-7E79-4BB0-8F26-B9157119A244}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A4BA46C-7E79-4BB0-8F26-B9157119A244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34A6B7A5-977F-4ABB-83C0-25B0A44C7442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A6B7A5-977F-4ABB-83C0-25B0A44C7442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A6B7A5-977F-4ABB-83C0-25B0A44C7442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A6B7A5-977F-4ABB-83C0-25B0A44C7442}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
